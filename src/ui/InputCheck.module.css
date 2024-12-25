@@ -1,0 +1,32 @@
+.check, .checked {
+  border-radius: 50%;
+  border: 2px solid var(--blue);
+  padding: 0px;
+  margin: 0px;
+  width: 1.8rem;
+  height: 1.8rem;
+  
+  cursor: pointer;
+}
+
+.check:hover {
+  border-color: var(--blue-dark);
+}
+
+.checked {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: var(--purple-dark);
+}
+
+.checked:hover {
+  background-color: var(--purple);
+  color: var(--white);
+}
+
+.checked svg {
+  color: var(--white);
+  font-weight: bold;
+}
